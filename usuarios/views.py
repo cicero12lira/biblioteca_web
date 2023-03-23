@@ -6,3 +6,6 @@ def login(request):
 
 def cadastro(request):
     return render(request, 'cadastro.html')
+
+def valida_cadastro(request):
+    HttpResponse()
